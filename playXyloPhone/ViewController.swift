@@ -26,15 +26,7 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
             print("error is : \(Error.self)")
         }
         audioPlayer.play()
-        
-        
-        
-        
-        
-        
-        
-        
-    }
+}
     
 
     
