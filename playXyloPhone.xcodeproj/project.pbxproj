@@ -10,8 +10,15 @@
 		F4B05F982318D7280034E046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B05F972318D7280034E046 /* AppDelegate.swift */; };
 		F4B05F9A2318D7280034E046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B05F992318D7280034E046 /* ViewController.swift */; };
 		F4B05F9D2318D7280034E046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B05F9B2318D7280034E046 /* Main.storyboard */; };
-		F4B05F9F2318D72A0034E046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B05F9E2318D72A0034E046 /* Assets.xcassets */; };
 		F4B05FA22318D72A0034E046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FA02318D72A0034E046 /* LaunchScreen.storyboard */; };
+		F4B05FB02318DA820034E046 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FA92318DA810034E046 /* note7.wav */; };
+		F4B05FB12318DA820034E046 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FAA2318DA810034E046 /* note3.wav */; };
+		F4B05FB22318DA820034E046 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FAB2318DA810034E046 /* note5.wav */; };
+		F4B05FB32318DA820034E046 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FAC2318DA820034E046 /* note2.wav */; };
+		F4B05FB42318DA820034E046 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FAD2318DA820034E046 /* note1.wav */; };
+		F4B05FB52318DA820034E046 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FAE2318DA820034E046 /* note6.wav */; };
+		F4B05FB62318DA820034E046 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FAF2318DA820034E046 /* note4.wav */; };
+		F4B05FB82318DA940034E046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B05FB72318DA940034E046 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +26,16 @@
 		F4B05F972318D7280034E046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4B05F992318D7280034E046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4B05F9C2318D7280034E046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F4B05F9E2318D72A0034E046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B05FA12318D72A0034E046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B05FA32318D72A0034E046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B05FA92318DA810034E046 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		F4B05FAA2318DA810034E046 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		F4B05FAB2318DA810034E046 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		F4B05FAC2318DA820034E046 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		F4B05FAD2318DA820034E046 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		F4B05FAE2318DA820034E046 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		F4B05FAF2318DA820034E046 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		F4B05FB72318DA940034E046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +68,17 @@
 		F4B05F962318D7280034E046 /* playXyloPhone */ = {
 			isa = PBXGroup;
 			children = (
+				F4B05FB72318DA940034E046 /* Assets.xcassets */,
+				F4B05FAD2318DA820034E046 /* note1.wav */,
+				F4B05FAC2318DA820034E046 /* note2.wav */,
+				F4B05FAA2318DA810034E046 /* note3.wav */,
+				F4B05FAF2318DA820034E046 /* note4.wav */,
+				F4B05FAB2318DA810034E046 /* note5.wav */,
+				F4B05FAE2318DA820034E046 /* note6.wav */,
+				F4B05FA92318DA810034E046 /* note7.wav */,
 				F4B05F972318D7280034E046 /* AppDelegate.swift */,
 				F4B05F992318D7280034E046 /* ViewController.swift */,
 				F4B05F9B2318D7280034E046 /* Main.storyboard */,
-				F4B05F9E2318D72A0034E046 /* Assets.xcassets */,
 				F4B05FA02318D72A0034E046 /* LaunchScreen.storyboard */,
 				F4B05FA32318D72A0034E046 /* Info.plist */,
 			);
@@ -122,9 +143,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B05FB52318DA820034E046 /* note6.wav in Resources */,
+				F4B05FB22318DA820034E046 /* note5.wav in Resources */,
+				F4B05FB32318DA820034E046 /* note2.wav in Resources */,
 				F4B05FA22318D72A0034E046 /* LaunchScreen.storyboard in Resources */,
-				F4B05F9F2318D72A0034E046 /* Assets.xcassets in Resources */,
+				F4B05FB82318DA940034E046 /* Assets.xcassets in Resources */,
+				F4B05FB42318DA820034E046 /* note1.wav in Resources */,
+				F4B05FB02318DA820034E046 /* note7.wav in Resources */,
+				F4B05FB62318DA820034E046 /* note4.wav in Resources */,
 				F4B05F9D2318D7280034E046 /* Main.storyboard in Resources */,
+				F4B05FB12318DA820034E046 /* note3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
