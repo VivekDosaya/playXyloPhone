@@ -17,8 +17,8 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func keyPressed(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "note\((sender as AnyObject).tag)", withExtension: "wav")
+    @IBAction func keyPressed(_ sender : UIButton) {
+        let soundURL = Bundle.main.url(forResource: "note\(sender.tag)", withExtension: "wav")
         do{
             audioPlayer = try AVAudioPlayer(contentsOf : soundURL!)
         }
